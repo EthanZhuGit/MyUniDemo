@@ -12,6 +12,7 @@
 	}
 </script>
 
-<style>
-	/*每个页面公共css */
+<style lang="scss">
+	/* 引入uView基础样式 */
+	@import "@/uni_modules/uview-ui/index.scss";
 </style>

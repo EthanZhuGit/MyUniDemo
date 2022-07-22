@@ -19,3 +19,7 @@ export function createApp() {
   }
 }
 // #endif
+
+//引入uView主JS库 https://www.uviewui.com/components/downloadSetting.html
+import uView from '@/uni_modules/uview-ui'
+Vue.use(uView)
