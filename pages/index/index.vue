@@ -1,14 +1,21 @@
 <template>
 	<view class="content">
 		<image class="logo" src="/static/logo.png"></image>
+
 		<view class="text-area">
 			<text class="title">{{title}}</text>
 		</view>
-		<u--form labelPosition="top"  >
-			<u-form-item label="姓名" borderBottom  :required="true">
+
+		<movable-view></movable-view>
+
+ 		<u-form labelPosition="top"  >
+			<u-form-item label="姓名" borderBottom :required="true">
 				<input/>
 			</u-form-item>
-		</u--form>
+		</u-form>
+
+		<u-tag></u-tag>
+		<u-album></u-album>
 
 		<u-popup mode="center" :show="showPop" :closeOnClickOverlay="true" @close="popViewClose()">
 			<scroll-view :scroll-y="true" class='pop_view'>
@@ -30,6 +37,16 @@
 			return {
 				title: 'Hello',
 				showPop: false,
+				actionList: [{
+									text: '点赞',
+									color: 'blue',
+									fontSize: 28
+								}, {
+									text: '分享'
+								}, {
+									text: '评论'
+								}],
+				show: true,
 				list: [{
 					id: 1,
 					name: 'item1',

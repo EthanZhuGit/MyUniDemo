@@ -1,0 +1,28 @@
+{
+  "name": "MyUniDemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EthanZhuGit/MyUniDemo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EthanZhuGit/MyUniDemo/issues"
+  },
+  "homepage": "https://github.com/EthanZhuGit/MyUniDemo#readme",
+  "devDependencies": {
+    "@dcloudio/uni-app-plus": "^2.0.1-35320220729001",
+    "@dcloudio/types": "^2.6.12",
+    "@dcloudio/uni-components": "^3.0.0-alpha-3000020210521001",
+    "@dcloudio/uni-h5": "^2.0.1-35320220729001",
+    "@dcloudio/uni-h5-ui": "^2.0.1-35320220729001",
+    "@dcloudio/uni-helper-json": "^1.0.13"
+  }
+}
