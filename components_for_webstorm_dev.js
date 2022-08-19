@@ -26,7 +26,14 @@ import Icon from '@dcloudio/uni-h5/src/core/view/components/icon/index'
 import MovableView from '@dcloudio/uni-h5/src/core/view/components/movable-view/index'
 import Editor from '@dcloudio/uni-h5/src/core/view/components/editor/index'
 import PickerViewColumn from '@dcloudio/uni-h5/src/core/view/components/picker-view-column/index'
-
+import Ad from '@dcloudio/uni-h5/src/platforms/h5/view/components/ad/index.vue'
+import CoverImage from '@dcloudio/uni-h5/src/platforms/h5/view/components/cover-image/index.vue'
+import CoverView from '@dcloudio/uni-h5/src/platforms/h5/view/components/cover-view/index.vue'
+import Map from '@dcloudio/uni-h5/src/platforms/h5/view/components/map/index.vue'
+import Picker from '@dcloudio/uni-h5/src/platforms/h5/view/components/picker/index.vue'
+import Video from '@dcloudio/uni-h5/src/platforms/h5/view/components/video/index.vue'
+import View from '@dcloudio/uni-h5/src/platforms/h5/view/components/view/index.vue'
+import WebView from '@dcloudio/uni-h5/src/platforms/h5/view/components/web-view/index.vue'
 
 
 
@@ -258,7 +265,14 @@ export default (Vue)=>{
     Vue.component(MovableView.name, MovableView);
     Vue.component(Editor.name, Editor);
     Vue.component(PickerViewColumn.name, PickerViewColumn);
-
+    Vue.component(Ad.name, Ad);
+    Vue.component(CoverImage.name, CoverImage);
+    Vue.component(Map.name, Map);
+    Vue.component(CoverView.name, CoverView);
+    Vue.component(Picker.name, Picker);
+    Vue.component(Video.name, Video);
+    Vue.component(View.name, View);
+    Vue.component(WebView.name, WebView);
 }
 
 

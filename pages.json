@@ -1,17 +1,53 @@
 {
-	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+  "pages": [
+    //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "uni-app"
+      }
+    },
+    {
+      "path": "pages/ucharts/ucharts",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/WaterMark/WaterMark",
+      "style": {
+        "navigationBarTitleText": "水印",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/cascadingStyleSheets/cascadingStyleSheets",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+    },
 		{
-			"path": "pages/index/index",
+			"path": "pages/h5Upload/fileUpload",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "文件上传",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/h5Upload/h5Upload",
+			"style": {
+				"navigationBarTitleText": "H5文件上传",
+				"enablePullDownRefresh": false
 			}
 		}
-	],
-	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
-	},
-	"uniIdRouter": {}
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "uniIdRouter": {}
 }
