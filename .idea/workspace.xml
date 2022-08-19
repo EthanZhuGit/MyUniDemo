@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="844e4006-36d2-4bef-afdf-10f7d3eb2d7c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.vue" afterDir="false" />
-    </list>
+    <list default="true" id="844e4006-36d2-4bef-afdf-10f7d3eb2d7c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,18 +22,28 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/hefu/workspace/demo/MyUniDemo",
+    "last_opened_file_path": "D:/workspace/code/insight-uniapp",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "JavaScript.Libraries",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "http.proxy",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2022.1.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
     "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "Groovy",
       "JAVA"
     ]
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\HBuilderProjects\MyUniDemo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.scratch_1.js">
     <configuration name="Scratch" type="Java Scratch" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Scratch" />
       <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java" />
@@ -44,8 +51,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="scratch_1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.scratch_1.js" />
         <item itemvalue="Java Scratch.Scratch" />
       </list>
     </recent_temporary>
@@ -65,6 +76,12 @@
       <workItem from="1658720081413" duration="119000" />
       <workItem from="1659152007478" duration="461000" />
       <workItem from="1659152515814" duration="12636000" />
+      <workItem from="1660526572312" duration="29038000" />
+      <workItem from="1660587371779" duration="3454000" />
+      <workItem from="1660590856890" duration="41472000" />
+      <workItem from="1660811078156" duration="2239000" />
+      <workItem from="1660821655216" duration="854000" />
+      <workItem from="1660874120047" duration="6033000" />
     </task>
     <task id="LOCAL-00001" summary="图片文件不能防止static/h5 文件夹">
       <created>1659152373882</created>
@@ -80,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659152472472</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="图片水印；基于H5的三端通用文件选择功能；集成第三方图表库">
+      <created>1660895922925</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1660895922925</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,7 +113,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="图片文件不能防止static/h5 文件夹" />
     <MESSAGE value="上传.idea配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="上传.idea配置" />
+    <MESSAGE value="图片水印；基于H5的三端通用文件选择功能；集成第三方图表库" />
+    <option name="LAST_COMMIT_MESSAGE" value="图片水印；基于H5的三端通用文件选择功能；集成第三方图表库" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
