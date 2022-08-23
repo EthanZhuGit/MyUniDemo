@@ -1,4 +1,4 @@
 # MyUniDemo
 uni app demonstration
 图片水印
-文件选择
+通用文件选择
