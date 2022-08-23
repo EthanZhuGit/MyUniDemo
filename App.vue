@@ -8,10 +8,7 @@ export default {
 		//     uni.setStorageSync(k, testModule[k])
 		// }
 		// uni.setStorageSync('token','2PvmOrTR886e50441628215417652')
-
-		if (uni.getSystemInfoSync().platform === "android") {
-			this.addNetLogInterceptor()//开发环境下输出日志
-		}
+		this.addNetLogInterceptor()//开发环境下输出日志
 		//#endif
 	},
 	onShow: function () {
