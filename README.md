@@ -5,3 +5,4 @@ uni app demonstration
 基于H5的通用文件选择,七牛云上传
 css样式测试
 JavaScript canvas
+哈哈哈哈哈测试测试测试
