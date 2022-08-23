@@ -3,11 +3,6 @@ export default {
 	onLaunch: function () {
 		console.log('App Launch')
 		//#ifdef APP-PLUS
-		// let testModule = uni.requireNativePlugin("UniAppBridge").getAppData()
-		// for (var k in testModule) {
-		//     uni.setStorageSync(k, testModule[k])
-		// }
-		// uni.setStorageSync('token','2PvmOrTR886e50441628215417652')
 		this.addNetLogInterceptor()//开发环境下输出日志
 		//#endif
 	},
