@@ -1,6 +1,6 @@
 <template>
 	<view class="content">
-		<image class="logo" src="/static/logo.png"></image>
+		<image class="logo" src="/static/logo.png" @click="gotoHome"></image>
 		<button @click="goto">图片水印</button>
 		<button @click="css">css</button>
 		<button @click="h5FileUpload">h5 file upload</button>
@@ -19,6 +19,12 @@
 
 		},
 		methods: {
+			gotoHome(){
+				uni.navigateTo({
+					url:'/pages/hospital_overview/hospital_overview'
+				})
+			},
+			
 			goto(e){
 				console.log("goto",e);
 				uni.navigateTo({

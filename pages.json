@@ -8,6 +8,13 @@
 			}
 		},
 		{
+			"path": "pages/index/home",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		},
+		{
 			"path": "pages/ucharts/ucharts",
 			"style": {
 				"navigationBarTitleText": "",
@@ -45,6 +52,13 @@
 			"path": "pages/cascadingStyleSheets/flexTest",
 			"style": {
 				"navigationBarTitleText": "flex",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/hospital_overview/hospital_overview",
+			"style": {
+				"navigationBarTitleText": "概览",
 				"enablePullDownRefresh": false
 			}
 

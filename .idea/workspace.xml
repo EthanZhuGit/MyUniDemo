@@ -3,9 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="844e4006-36d2-4bef-afdf-10f7d3eb2d7c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/cascadingStyleSheets/cascadingStyleSheets.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/cascadingStyleSheets/cascadingStyleSheets.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/h5/login_account.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/h5/login_bottom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/h5/login_passwd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/h5/login_top.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +94,14 @@
       <workItem from="1660896296163" duration="596000" />
       <workItem from="1660998694593" duration="1634000" />
       <workItem from="1661128835199" duration="23450000" />
+      <workItem from="1661237189948" duration="2103000" />
+      <workItem from="1661328958052" duration="690000" />
+      <workItem from="1661352741025" duration="1800000" />
+      <workItem from="1661394123295" duration="14911000" />
+      <workItem from="1661734346463" duration="18000" />
+      <workItem from="1661759271185" duration="1364000" />
+      <workItem from="1661824465987" duration="4102000" />
+      <workItem from="1661930265069" duration="5452000" />
     </task>
     <task id="LOCAL-00001" summary="图片文件不能防止static/h5 文件夹">
       <created>1659152373882</created>
