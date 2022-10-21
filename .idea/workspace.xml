@@ -3,13 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="844e4006-36d2-4bef-afdf-10f7d3eb2d7c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/cascadingStyleSheets/cascadingStyleSheets.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/cascadingStyleSheets/cascadingStyleSheets.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/cascadingStyleSheets/flexTest.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/cascadingStyleSheets/flexTest.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/hospital_overview/hospital_overview.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/hospital_overview/hospital_overview.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/h5/login_account.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/h5/login_bottom.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/h5/login_passwd.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/h5/login_top.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/ucharts/ucharts.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/ucharts/ucharts.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,12 +30,13 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/workspace/code/insight-uniapp&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/IdeaProjects/HBuilderProjects/uni_file_upload&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;http.proxy&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;JavaScript.Libraries&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2022.1.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
@@ -101,7 +101,19 @@
       <workItem from="1661734346463" duration="18000" />
       <workItem from="1661759271185" duration="1364000" />
       <workItem from="1661824465987" duration="4102000" />
-      <workItem from="1661930265069" duration="5452000" />
+      <workItem from="1661930265069" duration="10781000" />
+      <workItem from="1662448859763" duration="9886000" />
+      <workItem from="1662604217723" duration="7223000" />
+      <workItem from="1662690968483" duration="3061000" />
+      <workItem from="1663552423534" duration="96000" />
+      <workItem from="1663554068145" duration="616000" />
+      <workItem from="1663816741459" duration="887000" />
+      <workItem from="1663817650600" duration="1694000" />
+      <workItem from="1664005854176" duration="3316000" />
+      <workItem from="1664152650296" duration="2615000" />
+      <workItem from="1664156094834" duration="13655000" />
+      <workItem from="1664444668724" duration="4967000" />
+      <workItem from="1665208857641" duration="1000" />
     </task>
     <task id="LOCAL-00001" summary="图片文件不能防止static/h5 文件夹">
       <created>1659152373882</created>
@@ -131,7 +143,21 @@
       <option name="project" value="LOCAL" />
       <updated>1660896078646</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="测试测试">
+      <created>1662090134824</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1662090134824</updated>
+    </task>
+    <task id="LOCAL-00006" summary="测试测试">
+      <created>1662090148126</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662090148126</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,7 +178,8 @@
     <MESSAGE value="图片文件不能防止static/h5 文件夹" />
     <MESSAGE value="上传.idea配置" />
     <MESSAGE value="图片水印；基于H5的三端通用文件选择功能；集成第三方图表库" />
-    <option name="LAST_COMMIT_MESSAGE" value="图片水印；基于H5的三端通用文件选择功能；集成第三方图表库" />
+    <MESSAGE value="测试测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试测试" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

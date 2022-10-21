@@ -63,7 +63,25 @@
 			}
 
 		}
-	],
+	    ,{
+            "path" : "pages/forms_test/forms_test",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/slot/slotTest",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "Slot",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",

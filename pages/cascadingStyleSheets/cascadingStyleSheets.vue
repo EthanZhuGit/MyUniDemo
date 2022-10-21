@@ -14,22 +14,7 @@
 			<view class="margin_collapsing_test">水平方向</view>
 		</view>
 
-		<view class="flex_test">
-			<view class="flex_child">AAAAAAAAAAA</view>
-			<view class="flex_child">BBBBBBBBBB</view>
-			<view class="flex_child">CCCCCCCCCCC</view>
-			<view class="flex_child">DDDDDDDDDDD</view>
-			<view class="flex_child">EEEEEEEEEEEE</view>
-			<view class="flex_child">FFFFFFFFFFFF</view>
-			<view class="flex_child">GGGGGGGGGGG</view>
-			<view class="flex_child">HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH</view>
-			<view class="flex_child">JJJJJJJJJJJJ</view>
-			<view class="flex_child">KKKKKKKKKKkKK</view>
-			<view class="flex_child">LLLLLLLLLLLLLLL</view>
-			<view class="flex_child">MMMMMMMMMMMMM</view>
 
-
-		</view>
 	</view>
 </template>
 
@@ -95,26 +80,4 @@
 		margin-top: 50rpx;
 		margin-bottom: 50rpx;
 	}
-
-	.flex_test {
-		border: 2px solid orangered;
-		display: flex;
-		height: 300rpx;
-		flex-direction: row;
-		flex-wrap: wrap-reverse;
-		overflow: scroll;
-		justify-content: flex-start;
-	}
-	.flex_child {
-		border: 2px solid orange;
-		width: min-content;
-	}
-
-	.flex_child:first-child {
-		margin: auto;
-	}
-
-
-
-
 </style>

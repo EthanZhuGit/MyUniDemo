@@ -5,6 +5,9 @@
 		<button @click="css">css</button>
 		<button @click="h5FileUpload">h5 file upload</button>
 		<button @click="fileUpload">file upload</button>
+		<button @click="formTest">forms test</button>
+		<button @click="gotoCharts">charts test</button>
+
 	</view>
 </template>
 
@@ -44,6 +47,16 @@
 			fileUpload() {
 				uni.navigateTo({
 					url:'/pages/h5Upload/fileUpload'
+				})
+			},
+			formTest() {
+				uni.navigateTo({
+					url:'/pages/forms_test/forms_test'
+				})
+			},
+			gotoCharts() {
+				uni.navigateTo({
+					url: '/pages/ucharts/ucharts',
 				})
 			},
 		}
