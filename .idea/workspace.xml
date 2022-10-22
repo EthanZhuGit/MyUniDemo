@@ -2,18 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="844e4006-36d2-4bef-afdf-10f7d3eb2d7c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/pages/databind/myDataBindComponent.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components_for_webstorm_dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/components_for_webstorm_dev.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/cascadingStyleSheets/cascadingStyleSheets.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/cascadingStyleSheets/cascadingStyleSheets.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/cascadingStyleSheets/flexTest.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/cascadingStyleSheets/flexTest.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/hospital_overview/hospital_overview.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/hospital_overview/hospital_overview.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/ucharts/ucharts.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/ucharts/ucharts.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -26,29 +31,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/IdeaProjects/HBuilderProjects/uni_file_upload&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;JavaScript.Libraries&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2022.1.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/IdeaProjects/HBuilderProjects/MyUniDemo/components",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "JavaScript.Libraries",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2022.1.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;Groovy&quot;,
-      &quot;JAVA&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "Groovy",
+      "JAVA"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\HBuilderProjects\MyUniDemo\components" />
       <recent name="D:\IdeaProjects\HBuilderProjects\MyUniDemo" />
     </key>
   </component>
@@ -114,6 +120,7 @@
       <workItem from="1664156094834" duration="13655000" />
       <workItem from="1664444668724" duration="4967000" />
       <workItem from="1665208857641" duration="1000" />
+      <workItem from="1666346021584" duration="12776000" />
     </task>
     <task id="LOCAL-00001" summary="图片文件不能防止static/h5 文件夹">
       <created>1659152373882</created>
@@ -157,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662090148126</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="slot">
+      <created>1666346056041</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1666346056041</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,7 +193,8 @@
     <MESSAGE value="上传.idea配置" />
     <MESSAGE value="图片水印；基于H5的三端通用文件选择功能；集成第三方图表库" />
     <MESSAGE value="测试测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试测试" />
+    <MESSAGE value="slot" />
+    <option name="LAST_COMMIT_MESSAGE" value="slot" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
