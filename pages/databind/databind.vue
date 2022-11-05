@@ -16,7 +16,6 @@
 				@success="success"
 				@fail="fail"
 		/>
-		
 
 	</view>
 </template>
@@ -28,7 +27,11 @@
 		data() {
 			return {
 				list: ["hhh", 'ppp', 'yyyy'],
-				imageValue: [],
+				imageValue: [{
+					name: 'xTd1MpN6TOJH8cfa59190b93986d4736727e077537a4.jpg',
+					extname: 'jpg',
+					url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-927f9a82-de8a-433c-a7cf-9745172e86ca/07fee84d-06fd-44cd-b2d7-f6cc10ca4ce0.jpg',
+				}],
 			}
 		},
 		methods: {
@@ -42,6 +45,7 @@
 			},
 			get() {
 				console.log("get this.list", this.list);
+				console.log("get this.imageValue", this.imageValue);
 			},
 			select(e) {
 				console.log("select e", e);

@@ -217,6 +217,7 @@
 				this.files.forEach(v => {
 					files.push(v)
 				})
+				console.log("computed filesList result ", this.files);
 				return files
 			},
 			showType() {
@@ -284,6 +285,8 @@
 				return this.uploadFiles(files)
 			},
 			async setValue(newVal, oldVal) {
+				console.log("setValue newVal", newVal);
+				console.log("setValue oldVal", oldVal);
 				const newData =  async (v) => {
 					const reg = /cloud:\/\/([\w.]+\/?)\S*/
 					let url = ''
@@ -313,11 +316,14 @@
 					}
 				}
 				this.localValue = newVal
+				console.log("setValue this.localValue", this.localValue);
 				if (this.form && this.formItem &&!this.is_reset) {
 					this.is_reset = false
 					this.formItem.setValue(this.localValue)
 				}
 				let filesData = Object.keys(newVal).length > 0 ? newVal : [];
+				console.log("setValue this.files", this.files);
+				console.log("setValue filesData", filesData);
 				this.files = [].concat(filesData)
 			},
 
@@ -370,6 +376,7 @@
 			 * @param {Object} res
 			 */
 			async chooseFileCallback(res) {
+				console.log("chooseFileCallback res", res);
 				const _extname = get_extname(this.fileExtname)
 				const is_one = (Number(this.limitLength) === 1 &&
 						this.disablePreview &&
@@ -435,6 +442,7 @@
 			 * 成功或失败
 			 */
 			async setSuccessAndError(res, fn) {
+				console.log("setSuccessAndError res", res);
 				let successData = []
 				let errorData = []
 				let tempFilePath = []
@@ -553,6 +561,7 @@
 					}
 					this.localValue = [...data]
 				}
+				console.log("setEmit this.localValue", this.localValue);
 				// #ifdef VUE3
 				this.$emit('update:modelValue', this.localValue)
 				// #endif

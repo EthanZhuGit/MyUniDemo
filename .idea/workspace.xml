@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="844e4006-36d2-4bef-afdf-10f7d3eb2d7c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/databind/myDataBindComponent.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components_for_webstorm_dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/components_for_webstorm_dev.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/databind/databind.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/databind/databind.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uni_modules/uni-file-picker/components/uni-file-picker/uni-file-picker.vue" beforeDir="false" afterPath="$PROJECT_DIR$/uni_modules/uni-file-picker/components/uni-file-picker/uni-file-picker.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,27 +29,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/IdeaProjects/HBuilderProjects/MyUniDemo/components",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "JavaScript.Libraries",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2022.1.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/IdeaProjects/HBuilderProjects/MyUniDemo/components&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;JavaScript.Libraries&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2022.1.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "Groovy",
-      "JAVA"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;Groovy&quot;,
+      &quot;JAVA&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\IdeaProjects\HBuilderProjects\MyUniDemo\components" />
@@ -120,7 +118,8 @@
       <workItem from="1664156094834" duration="13655000" />
       <workItem from="1664444668724" duration="4967000" />
       <workItem from="1665208857641" duration="1000" />
-      <workItem from="1666346021584" duration="12776000" />
+      <workItem from="1666346021584" duration="14991000" />
+      <workItem from="1666571658599" duration="1090000" />
     </task>
     <task id="LOCAL-00001" summary="图片文件不能防止static/h5 文件夹">
       <created>1659152373882</created>
@@ -171,7 +170,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666346056041</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="双向绑定自定义组件">
+      <created>1666418987156</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1666418987156</updated>
+    </task>
+    <task id="LOCAL-00009" summary="双向绑定自定义组件">
+      <created>1666419009102</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1666419009102</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,7 +207,8 @@
     <MESSAGE value="图片水印；基于H5的三端通用文件选择功能；集成第三方图表库" />
     <MESSAGE value="测试测试" />
     <MESSAGE value="slot" />
-    <option name="LAST_COMMIT_MESSAGE" value="slot" />
+    <MESSAGE value="双向绑定自定义组件" />
+    <option name="LAST_COMMIT_MESSAGE" value="双向绑定自定义组件" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
