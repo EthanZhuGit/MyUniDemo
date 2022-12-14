@@ -253,7 +253,8 @@ export default (Vue)=>{
     Vue.component(uTooltip.name, uTooltip);
     Vue.component(uUpload.name, uUpload);
     Vue.component(uDropdown.name, uDropdown);
-    Vue.component(uParse.name, uParse);
+    //uParse.name 为mp-html
+    Vue.component('uParse', uParse);
     Vue.component(uNumberKeyboard.name, uNumberKeyboard);
     Vue.component(uToast.name, uToast);
     Vue.component(uTr.name, uTr);
